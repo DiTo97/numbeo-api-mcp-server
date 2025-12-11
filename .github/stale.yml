@@ -5,11 +5,13 @@ daysUntilClose: 14
 exemptLabels:
   - pinned
   - security
-staleLabel: won't fix
+staleLabel: stale
 markComment: >
-  The issue has been automatically marked as stale since it has not had recent activity;
-  will be closed if no further activity occurs. TY for the contribution.
-closeComment: false
+  This issue has been automatically marked as stale because it has not had recent activity; 
+  will be closed if no further activity occurs within the next 14 days.
+closeComment: >
+  This issue has been automatically closed due to inactivity.
 exemptProjects: true
 exemptMilestones: true
 exemptAssignees: true
+only: issues
